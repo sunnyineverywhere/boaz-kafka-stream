@@ -33,6 +33,8 @@ kafka-console-producer.sh --broker-list localhost:9092 --topic boaz
 ````
 
 # Consumer
-
-**도커 이미지 빌드 및 실행**
-docker build -t consumer .
+** 실행 **
+```
+pip install kafka-python
+python3 consumer.py
+```
