@@ -18,11 +18,11 @@ cd docker compose up
 ```
 
 ** 토픽 생성 **
-``bash
+
+```bash
 kafka-topics.sh --create --topic boaz --bootstrap-server localhost:9092
 docker exec -it kafka /bin/bash
-
-````
+```
 
 # Kafka-Stream
 - `/java`의 Main 클래스 실행
